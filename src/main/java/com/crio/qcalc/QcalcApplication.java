@@ -11,13 +11,27 @@ public class QcalcApplication {
 	//System.out.println("Hello world");
 	
 
-       System.out.println("Starting QCalc..");
+     /*   System.out.println("Starting QCalc..");
 
        StandardCalculator calc = new StandardCalculator();
 
        calc.add(1, 1);
 
-       System.out.println(calc.getResult());
+       System.out.println(calc.getResult());*/
+       
+/*StandardCalculator calc = new StandardCalculator();
+
+calc.add(Double.MAX_VALUE, 1.0);
+
+calc.printResult();*/
+
+
+
+StandardCalculator calc = new StandardCalculator();
+
+calc.add(Double.MAX_VALUE, Double.MAX_VALUE);
+
+calc.printResult();
 
    
 
