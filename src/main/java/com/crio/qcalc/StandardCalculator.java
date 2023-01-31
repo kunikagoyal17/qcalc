@@ -78,9 +78,11 @@ public void add(double num1, double num2){
 
 }
 
-public void multiply(int num1 ,int num2)
+/*public void multiply(double num1 ,double num2)
 {
-    multiply((double)num1 ,(double)num2);
+   // multiply((double)num1 ,(double)num2);
+   double result=
+
 }
   
 
