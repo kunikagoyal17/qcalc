@@ -34,6 +34,18 @@ calc.add(Double.MAX_VALUE, Double.MAX_VALUE);
 calc.printResult();
 
    
+LogicCalculator calc2 = new LogicCalculator();
+
+calc2.OR(8, 6);
+
+calc2.printResult();
+
+LogicCalculator calc3 = new LogicCalculator();
+
+calc3.AND(8, 6);
+
+calc3.printResult();
+
 
 	}
 }

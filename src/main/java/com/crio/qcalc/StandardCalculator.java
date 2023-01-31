@@ -80,6 +80,13 @@ public  final void add(double num1, double num2){
 
 }
 
+public final void multiply(double num1, double num2){
+
+    result = num1 * num2;
+
+}
+
+
 // public void multiply(double num1 ,double num2)
 // {
 //    multiply((double)num1 ,(double)num2);
@@ -113,6 +120,19 @@ public final void subtract(double num1, double num2){
 }
 
 
+public final void divide(double num1, double num2){
+
+    if(num2 == 0.0){
+
+        throw new ArithmeticException("Divide By Zero");
+
+    }
+
+    result = num1 / num2;
+
+}
+
+
 // public void add(double num1, double num2){
 
 // result = num1 + num2;
@@ -125,16 +145,16 @@ public final void subtract(double num1, double num2){
 // }
 
 
-public final void multiply(double num1, double num2)
+/*public final void multiply(double num1, double num2)
 {
     result=num1*num2;
-}
+}*/
 
 
-public final void divide(double num1, double num2)
-{
-    result=num1/num2;
-}
+//public final void divide(double num1, double num2)
+//{
+  ////  result=num1/num2;
+//}
 
    // other arithmetic operation methods
    
