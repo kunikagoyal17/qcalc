@@ -82,13 +82,16 @@ public  final void add(double num1, double num2){
 
 public final void multiply(double num1, double num2){
 
-    result = num1 * num2;
-    if((result == -Double.MAX_VALUE) || (result == Double.POSITIVE_INFINITY))
+  double  result = num1 * num2;
+    if((result == Double.MAX_VALUE) || (result == Double.POSITIVE_INFINITY))
     {
-        throw new ArithmeticException("Multiply of two double one is pos and one is negative");
+        throw new ArithmeticException("Double overflow");
     }
-    this.result =result;
-
+    else if(num1<0 ||num2<0)
+    {
+    throw new ArithmeticException("Multiply of two double one is pos and one is negative");
+    }
+    this.result = result;
 }
 
 
